@@ -6,7 +6,7 @@
     "start": "npm run serve",
     "dev": "run-p watch serve",
     "watch": "ng serve",
-    "serve": "pizza-server",
+    "serve": "node server",
     "build": "ng build --prod=true",
     "test": "ng test",
     "lint": "ng lint",
